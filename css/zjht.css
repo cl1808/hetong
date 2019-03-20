@@ -1,0 +1,21 @@
+.banner {
+  width: 100%;
+  height:400px;
+}
+.banner .img1{
+  height:100%;
+  background:url(../img/intro/2sFNjj4OTvai_RxVucsVaw.jpg) center center no-repeat;
+}
+.intro{
+  width:6.5rem;
+  height:2.2rem;
+  line-height:2.2rem;
+  font-size: 0.9rem;
+  background: #005BAC;
+  margin-top: -3.5rem;
+  margin-right: 0.3rem;
+}
+.intro:hover{
+  background:#9bc816;
+}
+

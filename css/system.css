@@ -1,0 +1,68 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.circle{
+  padding-left: 46rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.back{
+  background:#F5F5F5;
+  color:#666666;
+  font-size:0.9rem;
+}
+.back div{
+  padding: 0.6rem  2rem 0.6rem 2rem;
+  border-bottom: 1px solid #E3E3E3;
+  cursor: pointer;
+}
+.back div:first-child{
+  background: #005BAC;
+  color:#fff;
+}
+.back div:not(:first-child):hover{
+  background: #9bc816;
+  color:#fff;
+}
+.dot{
+  width:0.4rem;
+  height:0.4rem;
+  background: #d7d7d7;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 0.6rem;
+  float: left;
+}
+.mr_l{
+  margin-left:-1.5rem;
+}
+.mr_l h6{
+  color:#777777;
+  font-weight: bold;
+  font-size: 1.12rem;
+}
+.mr_l p{
+  color:#777777;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.padd7{
+  padding-left:7rem;
+  padding-right:7rem;
+}
+.mr_l .sys{
+ margin-top: -5rem;
+}
+div.mr_l .div_img{
+  width:39rem;
+  height:41.4rem;
+  margin-left: 7rem;
+  margin-right: 5rem;
+}

@@ -1,0 +1,95 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.circle{
+  padding-left: 46rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.pic div{
+  margin-top: 1.5rem;
+  margin-right: 0;
+  overflow: hidden;
+}
+.pic img{
+  width:24rem;
+  height:18rem;
+  cursor: pointer;
+  transition: all .5s;
+}
+.pic img:hover{
+  transform: scale(1.2);
+}
+.btnc{
+  width:24rem;
+  height:6.8rem;
+  background-color: rgba(0,91,172,0.85);
+  position: absolute;
+  bottom: -3.9rem;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btnc:hover{
+  bottom:0;
+}
+.btnc p{
+  color:#fff;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 2.8rem;
+}
+.btnc h5{
+  width:8.6rem;
+  height:2.5rem;
+  color:#fff;
+  font-size: 0.9rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin:0 auto;
+}
+.btnc h5:hover{
+  background: #fff;
+  color:#005BAC;
+}
+.page-link {
+  color: #666666 !important;
+  background-color: #F2F2F2 !important;
+  border: 0 !important;
+  font-size: 0.9rem;
+}
+.page-item:first-child .page-link {
+  padding-left:1.2rem !important;
+  padding-right:1.2rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.page-item:last-child .page-link {
+  padding-left:1.2rem !important;
+  padding-right:1.2rem !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.page-item.active .page-link{
+  background: #5AAAA7 !important;
+  color:#fff !important;
+}
+.page-link:hover{
+  background: #5AAAA7 !important;
+  color:#fff !important;
+}
+#footer{
+  margin-top: 2rem;
+}
+.page-link:focus {
+  box-shadow: 0 0 0 0 #fff !important;
+}
+

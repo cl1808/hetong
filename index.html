@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+<!--引入顶部-->
+<div id="header"></div>
+<script>
+  $(function(){
+    $("#header").load("header.html");
+  });
+</script>
+<!-- 首页轮播-->
+<div class="banner pl-0 pr-0 w">
+  <div id="demo" class="carousel" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/index/I5jwhpBpQSuTf5-_8h57nQ.jpg" alt="" class="w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/bIt37H8MS5WHthcgYKfikQ.jpg" alt="" class="w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/dvHgOp08SMOTwTtINWaEng.jpg" alt="" class="w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/4TIIJO2ZSTyfCZPP1BVNiQ.jpg" alt="" class="w-100"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/6uJMIjWPQoSDklp3agP7ug.jpg" alt="" class="w-100"/>
+      </div>
+      <!-- 导航标识符-->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+      </ul>
+      <!-- 左右箭头-->
+      <a href="#demo" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#demo" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+</div>
+<!--1f系统方案-->
+<div class="system pl-0 pr-0 w">
+  <h3 class="font-weight-bold text-center pt-5">系统方案</h3>
+  <p class="text-center p_font pt-2">提供基于物联网的水、热、气等能源测控系统解决方案 , 物联网、互联网、云计算、大数据、GIS地理信息技术、自动测控技术</p>
+  <div class="row pt-2 w ml-0 mr-0">
+    <div class="col-lg-6 pl-0 pr-0">
+      <ul class="list-unstyled jjfa_l">
+        <li style="display: list-item;opacity:1">
+          <img src="img/index/jjfa_tu01.jpg" alt=""/>
+        </li>
+        <li style="opacity:1">
+          <img src="img/index/jjfa_tu02_02.jpg" alt=""/>
+        </li>
+        <li style="opacity:1">
+          <img src="img/index/jjfa_tu04_02.jpg" alt=""/>
+        </li>
+        <li style="display: none;opacity:1">
+          <img src="img/index/jjfa_tu03_02.jpg" alt=""/>
+        </li>
+        <li style="display: none;opacity:1">
+          <img src="img/index/jjfa_tu05_02.jpg" alt=""/>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-3 pl-0 jjfa_r">
+      <div class="jjfa_1 bg_wh pl-4 pt-4">
+        <img src="img/index/jjfa_tit3_bg.png" alt=""/>
+        <div>
+          <h3 class="text-white font-weight-bold d-inline">智慧水务</h3>
+          <div class="circle d-inline-block"></div>
+        </div>
+      </div>
+      <div class="jjfa_3 bg_wh pl-4 pt-4">
+        <img src="img/index/jjfa_tit3_bg.png" alt=""/>
+        <div>
+          <h3 class="text-white font-weight-bold d-inline">智慧水利</h3>
+          <div class="circle d-inline-block"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 over jjfa_rr pl-0">
+      <div class="jjfa_2 bg_wh pl-4 pt-4">
+        <img src="img/index/jjfa_tit3_bg.png" alt=""/>
+        <div>
+          <h3 class="text-white font-weight-bold d-inline">智慧供热</h3>
+          <div class="circle d-inline-block"></div>
+        </div>
+      </div>
+      <div class="jjfa_4 bg_wh pl-4 pt-4">
+        <img src="img/index/jjfa_tit3_bg.png" alt=""/>
+        <div>
+          <h3 class="text-white font-weight-bold d-inline">智慧燃气</h3>
+          <div class="circle d-inline-block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--2f工程案例-->
+<div class="project w bg">
+  <h3 class="font-weight-bold text-center pt-5">工程案例</h3>
+  <p class="text-center p_font pt-2">物联网、互联网、云计算、大数据、GIS地理信息技术、自动测控技术</p>
+  <div class="row w1">
+    <div class="col-lg-3 project_l">
+      <ul class="list-unstyled">
+        <li class="blue green">
+          <p class="liBtn">智慧水务工程案例</p>
+        </li>
+        <li class="blue">
+          <p>智慧水利工程案例</p>
+        </li>
+        <li class="blue">
+          <p>智慧供热工程案例</p>
+        </li>
+        <li class="blue">
+          <p>智慧燃气工程案例</p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-6 pt-4 divs">
+      <div id="carousel-ad1" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/index/D9--53L9TDOMMd4JotdkgA.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>城乡供水安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/G-rGfD_9QzqguALSNBQOHw.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>电子远传水表安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/sRcRCb1uQNaVJFJUTVgshg.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>物联网饮用净水水表安装项目</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="carousel-ad2" class="carousel" style="display:none">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/index/WEgMwtdcRwK5wWC8uVODxg.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>工商用物联网水表安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/1w9FhQP6QpmBq5hM5GLo1w.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>农田灌溉自动化安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/96j0pyDNSFqRTp_02BVYcA.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>水资源管理与监测安装项目</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="carousel-ad3" class="carousel" style="display:none">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/index/3QRV89M6TbW1CaKsGj1gtw.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>热计量远传抄收系统安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/8JXmfcLKTYqPbErl2ZA5Hw.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>计量温控一体化系统安装项目</span>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/index/f9adej08TKKhXX7_lU8QVw.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>地热资源现场安装图片</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="carousel-ad4" class="carousel" style="display:none">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/index/QaIM92f2Sgm9A5v15v20Xw.jpg" alt=""/>
+            <div class="carousel-caption">
+              <div class="gray">
+                <span>燃气表现场安装项目</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 project_r pl-5">
+      <ul class="list-unstyled pl-3">
+        <li>
+          <div class="other pic_mb">
+            <p class="d-inline-block m-0">其他案例</p>
+            <div class="square d-inline-block text-white ml-3"><span>＜</span></div>
+            <div class="square d-inline-block pr-2 text-white"><span>＞</span></div>
+          </div>
+        </li>
+        <li class="pic_mb">
+          <div id="pic_r1" class="carousel" data-ride="carousel" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/index/D9--53L9TDOMMd4JotdkgA.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>城乡供水安装项目</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/index/WEgMwtdcRwK5wWC8uVODxg.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>工商用物联网水表安装项目</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="pic_mb">
+          <div id="pic_r2" class="carousel" data-ride="carousel" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/index/G-rGfD_9QzqguALSNBQOHw.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>电子远传水表安装项目</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/index/1w9FhQP6QpmBq5hM5GLo1w.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>农田灌溉自动化安装项目</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div id="pic_r3" class="carousel" data-ride="carousel" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/index/sRcRCb1uQNaVJFJUTVgshg.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>物联网饮用净水水表安装项目</span>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/index/96j0pyDNSFqRTp_02BVYcA.jpg_560xa.jpg" alt=""/>
+                <div class="carousel-caption">
+                  <div class="pic_gray">
+                    <span>水资源管理与监测安装项目</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- 3f产品中心-->
+<div class="product pro_bg w">
+  <h3 class="font-weight-bold text-center pt-5">产品中心</h3>
+  <p class="text-center p_font pt-2">提供基于物联网的水、热、气等能源测控系统解决方案 , 物联网、互联网、云计算、大数据、GIS地理信息技术、自动测控技术</p>
+  <div class="text-center">
+    <div class="pro_b d-inline-block">
+      <a href="javascript:;" class="pl-4 pr-4">智慧水务系列产品</a>
+    </div>
+    <div class="pro_b d-inline-block">
+      <a href="javascript:;" class="pl-4 pr-4">智慧水利系列产品</a>
+    </div>
+    <div class="pro_b d-inline-block">
+      <a href="javascript:;" class="pl-4 pr-4">智慧供热系列产品</a>
+    </div>
+    <div class="pro_b d-inline-block">
+      <a href="javascript:;" class="pl-4 pr-4">智慧燃气系列产品</a>
+    </div>
+  </div>
+  <div id="pics" class="carousel w1" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/index/CK2d2h0_R8KyZZatlxzSgw.jpg_1180xa.jpg" alt="" title="19#超声波热能表"/>
+        <img src="img/index/IhB4kjzDQpGhYBHAO7w6JQ.jpg_1180xa.jpg" alt="" title="机电分离无磁远传水表"/>
+        <img src="img/index/WoYZt3oyT62MUsheauR2KA.jpg_1180xa.jpg" alt="" title="管网用超声波式热能表"/>
+        <img src="img/index/Zkc8axMURsqkQFGv2siILw.jpg_1180xa.jpg" alt="" title="工业用膜式燃气表"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/_DK5SpwdQ3qShX3djDGOhA.jpg" alt="" title="工业用涡轮流量计"/>
+        <img src="img/index/g6R5vvMNTOSwUJYyoB6phg.jpg_1180xa.jpg" alt="" title="超声波水表"/>
+        <img src="img/index/ubKPJZZiRw2ebFtaGdfIYA.jpg_1180xa.jpg" alt="" title="电磁流量计"/>
+        <img src="img/index/MvnaXDhxQiOhbafIwP6vlg.jpg_1180xa.jpg" alt="" title="遥测终端机"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/Itx6yL8XTS2-pkbD9f0mCA.jpg_1180xa.jpg" alt="" title="IC卡铝壳膜式燃气表"/>
+        <img src="img/index/C72LXSFbTV6pDDsF-RqTeg.jpg_1180xa.jpg" alt="" title="IC卡铁壳膜式燃气表"/>
+        <img src="img/index/l8tcJq9qSJm1BWm5jAFwVA.jpg_1180xa.jpg" alt="" title="集中器"/>
+        <img src="img/index/CdDCoIq6RYaenstJrg8-uQ.jpg_1180xa.jpg" alt="" title="17#超声波热能表"/>
+      </div>
+      <div class="carousel-item">
+        <img src="img/index/Z-bjMrO7RwqIeIxg1i1uXA.jpg_1180xa.jpg" alt="" title="基于LoRa技术的无线远传水表"/>
+        <img src="img/index/o-lJOsFlRYexDrkW9zGI_w.jpg_1180xa.jpg" alt="" title="LoRa/NB-IOT远传智能水表（饮用净水）"/>
+        <img src="img/index/NLMu9cg3S7qnnwCqeB5frQ.jpg_1180xa.jpg" alt="" title="直读式远传干式水表"/>
+        <img src="img/index/BbjlxKVBQhiLUdHgSFyWEg.jpg_1180xa.jpg" alt="" title="直读式远传阀控水表"/>
+      </div>
+      <!-- 导航标识符-->
+      <ul class="carousel-indicators">
+        <li data-target="#pics" data-slide-to="0" class="active"></li>
+        <li data-target="#pics" data-slide-to="1"></li>
+        <li data-target="#pics" data-slide-to="2"></li>
+        <li data-target="#pics" data-slide-to="3"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- 4f最新动态-->
+<div class="new_box mb-5 w">
+  <h3 class="font-weight-bold text-center pt-5">最新动态</h3>
+  <p class="text-center p_font pt-2">将物联网技术、云计算技术应用于智慧城市的建设中，提供准确及时的能耗基础数据</p>
+  <div class="row w1">
+    <div class="col-lg-6 col-md-12 col-sm-12 new">
+      <ul class="list-unstyled d-flex mt-4">
+        <li class="hover">
+          <p class="pt-1 m-0">公司新闻</p>
+        </li>
+        <li>
+          <p class="pt-1 m-0">行业动态</p>
+        </li>
+        <li>
+          <p class="pt-1 m-0">媒体聚焦</p>
+        </li>
+      </ul>
+      <div>
+        <div class="news mt-5">
+          <div class="clearfix">
+            <a href="javascript:;" title="祝福中国！祝福世界！——习近平2019年新年贺词启示录" class="祝福中国！祝福世界！——习近平2019年新年贺词启示录">祝福中国！祝福世界！——习近平2019年新年贺词启示录</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">刚刚</span>
+            </span>
+          </div>
+          <p title="祝福中国！祝福世界！——习近平2019年新年贺词启示录 世界好，中国才能好；中国好，世界才更好。这是一条简单而深刻的道理。“无论国际风云如何变幻，中国维护国家主权和安全的信心和决心不会变，中国维护世界和平、促进共同发展的诚意和善意不会变。”“祝福中国！祝福世界！”习近平主席在2019年新年贺词中，以庄严承诺和殷殷祝福，道出了中国人民一以贯之的坚定立场，道出了世界人民对和平与发展的共同心声！" class="mb-4">祝福中国！祝福世界！——习近平2019年新年贺词启示录 世界好，中国才能好；中国好，...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="民营企业的春天来了" class="float-left">民营企业的春天来了</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-11-08 12:24</span>
+            </span>
+          </div>
+          <p title="2018年11月1日上午，中共中央总书记、国家主席、中央军委主席习近平在京主持召开民营企业座谈会并亲切接见了以山东和同信息科技股份有限公司董事长耿哲为代表的民营企业家代表。" class="mb-4">2018年11月1日上午，中共中央总书记、国家主席、中央军委主席习近平在京主持召开民营...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="和同信息科技股份有限公司应邀参加2018年中国（济南）产业金融国际论坛" class="float-left">和同信息科技股份有限公司应邀参加2018年中国（济南）...</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-11-08 12:20</span>
+            </span>
+          </div>
+          <p title="2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应邀参加。" class="mb-4">2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应...</p>
+        </div>
+        <hr/>
+      </div>
+      <div style="display:none">
+       <div class="news mt-5">
+         <div class="clearfix">
+            <a href="javascript:;" title="我国仪器仪表产业现状分析" class="float-left">我国仪器仪表产业现状分析</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:28</span>
+            </span>
+          </div>
+          <p title="经过几十年来，特别是近十年来的建设与发展，我国仪器仪表已经初步形成产品门类品种比较齐全，具有一定生产规模和开发能力的产业体系，成为亚洲除日本以外第二大仪器仪表生产国。   据不完全统计，年产值低于500万元的企业未列入统计，部分军工企业和产品未列入统计，2003年我国仪器仪表生产企业总数2232个，工业总产值970亿元，销售收入921亿元;包括医疗仪器，工业总产值和销售收入均突破1000亿元。其中" class="mb-4">经过几十年来，特别是近十年来的建设与发展，我国仪器仪表已经初步形成产品门类品种比...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="国内电子测量仪器工业发展分析" class="float-left">国内电子测量仪器工业发展分析</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:28</span>
+            </span>
+          </div>
+          <p title="2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应邀参加。" class="mb-4">2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="国家政策东风带动仪器仪表企业强劲发展" class="float-left">国家政策东风带动仪器仪表企业强劲发展</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:27</span>
+            </span>
+          </div>
+          <p title="2月28日，工业和信息化部、科技部、财政部、国家标准化管理委员会联合印发了《加快推进传感器及智能化仪器仪表产业发展行动计划》(简称《行动计划》)的通知，为近期传感器及智能化仪器仪表产业发展指明了方向。   《行动计划》还制定了2013年至2015年的近期目标，未来将培育产值超10亿元的行业龙头企业和产值5000万元以上的“小(中)而精、精而专、专而强”的创新型企业。   不难看出，《行动计划》的出" class="mb-4">2月28日，工业和信息化部、科技部、财政部、国家标准化管理委员会联合印发了《加快推...</p>
+        </div>
+        <hr/>
+      </div>
+      <div style="display:none">
+       <div class="news mt-5">
+         <div class="clearfix">
+            <a href="javascript:;" title="我国仪器仪表产业现状分析" class="float-left">我国仪器仪表产业现状分析</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:27</span>
+            </span>
+          </div>
+          <p title="经过几十年来，特别是近十年来的建设与发展，我国仪器仪表已经初步形成产品门类品种比较齐全，具有一定生产规模和开发能力的产业体系，成为亚洲除日本以外第二大仪器仪表生产国。   据不完全统计，年产值低于500万元的企业未列入统计，部分军工企业和产品未列入统计，2003年我国仪器仪表生产企业总数2232个，工业总产值970亿元，销售收入921亿元;包括医疗仪器，工业总产值和销售收入均突破1000亿元。其中" class="mb-4">经过几十年来，特别是近十年来的建设与发展，我国仪器仪表已经初步形成产品门类品种比...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="国内电子测量仪器工业发展分析" class="float-left">国内电子测量仪器工业发展分析</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:28</span>
+            </span>
+          </div>
+          <p title="2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应邀参加。" class="mb-4">2018年10月18日，山东和同信息科技股份有限公司以山东省瞪羚企业和新三板挂牌企业应...</p>
+        </div>
+        <hr/>
+        <div class="news">
+          <div class="clearfix">
+            <a href="javascript:;" title="国家政策东风带动仪器仪表企业强劲发展" class="float-left">国家政策东风带动仪器仪表企业强劲发展</a>
+            <span class="float-right">
+              <img src="img/index/sj.png" alt=""/>发布时间：<span class="text-muted">2018-04-20 14:27</span>
+            </span>
+          </div>
+          <p title="2月28日，工业和信息化部、科技部、财政部、国家标准化管理委员会联合印发了《加快推进传感器及智能化仪器仪表产业发展行动计划》(简称《行动计划》)的通知，为近期传感器及智能化仪器仪表产业发展指明了方向。   《行动计划》还制定了2013年至2015年的近期目标，未来将培育产值超10亿元的行业龙头企业和产值5000万元以上的“小(中)而精、精而专、专而强”的创新型企业。   不难看出，《行动计划》的出" class="mb-4">2月28日，工业和信息化部、科技部、财政部、国家标准化管理委员会联合印发了《加快推...</p>
+        </div>
+        <hr/>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+      <embed src="http://player.youku.com/player.php/sid/XMzczNDE0NzE4NA==/v.swf" class="video">
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
+<script>
+  $(function(){
+    $(".jjfa_l li").first().show().siblings().hide();
+    $(".jjfa_r div").hover(function() {
+      var num = $(this).index();
+      $(".jjfa_l li").stop().eq(num + 1).fadeIn(800).siblings().fadeOut(800);
+    }) 
+    $(".jjfa_rr div").hover(function () {
+      var num = $(this).index();
+      $(".jjfa_l li").stop().eq(num + 3).fadeIn(800).siblings().fadeOut(800);
+    }, function () {
+      $(".jjfa_l li").stop().first().fadeIn().siblings().fadeOut();
+    })
+  })
+  $('#carousel-ad1').carousel();
+  $('#carousel-ad2').carousel();
+  $('#carousel-ad3').carousel();
+  //查找触发事件的元素
+  var $lis=$('div.project_l>ul>li');
+  //给li绑定单击事件
+  $lis.each(
+    function(i,elem){
+      var $elem=$(elem);
+      $elem.click(function(){
+        var $elem=$(this);
+        //查找要修改的元素
+        var $p=$elem.children("p");
+        var $sibs=$elem.siblings();
+        var $ps=$sibs.children();
+        //如果当前元素没有名为green的class
+        if(!($elem.hasClass("green"))){
+          //就给当前元素添加green
+          $elem.addClass("green");
+          //移除除自己之外的兄弟的green
+          $sibs.removeClass("green");
+          $p.addClass("liBtn");
+          $ps.removeClass("liBtn");
+        }
+        $(".divs").children().each(function(j,elem){
+          var $div=$(elem);
+          if(i==j){
+            $div.css("display","block");
+            $div.siblings().css("display","none");
+          }
+        })  
+      })
+    }
+  )
+  //查找触发事件的元素li
+  $(".new>ul>li").each(function(i,elem){
+    var $elem=$(elem);
+    //绑定单击事件
+    $elem.click(function(){
+      var $elem=$(this);
+      $elem.addClass("hover")
+      $elem.siblings().removeClass("hover");
+      $(".new>div").each(function(j,el){
+        var $el=$(el);
+        if(i==j){
+          $el.css("display","block");
+          $el.siblings().css("display","none");
+        }
+      })
+    })
+  })
+</script>
+
+<!-- 引入尾部-->
+<script>
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.w1 p{
+  line-height: 2rem;
+}
+.circle{
+  padding-left: 48rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.img_w div:first-child img{
+  width:34.3rem;
+  height:15.6rem;
+}
+.img_w div:last-child img{
+  width:34.3rem;
+  height:21.8rem;
+}
+#footer{
+  margin-top:5rem;
+}
+

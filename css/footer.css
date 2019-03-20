@@ -1,0 +1,72 @@
+.bg1{
+  background:url('../img/footer/ad_bg.jpg') no-repeat;
+}
+.d_pt{
+  padding-top:3.5rem;
+}
+.my_font1{
+  font-size: 1.5rem;
+}
+.my_font2{
+  font-size: 0.8rem;
+}
+.d_border{
+  border: 2px solid #fff;
+  height: 2.5rem;
+}
+.my_font3{
+  font-size: 1.2rem;
+}
+.pr{
+  padding-left:7.5rem;
+}
+.p_mb{
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.d_border a{
+  line-height: 2.3rem;
+}
+.bg2{
+  background:url('../img/footer/ft_bg.jpg') no-repeat;
+}
+.padd_t{
+  padding-top:4rem;
+  padding-left: 16rem;
+}
+.pic{
+  width: 1.8rem;
+  height:1.8rem;
+  border-radius: 50%;
+  transition: .5s;
+}
+.qq{
+  background: #90c320 url(../img/footer/qq.png) no-repeat center center;
+}
+.wx{
+  background: #90c320 url(../img/footer/wx.png) no-repeat center center;
+}
+.email{
+  background: #90c320 url(../img/footer/email.png) no-repeat center center;
+}
+.address{
+  background: #90c320 url(../img/footer/address.png) no-repeat center center;
+}
+.mess{
+  background: #90c320 url(../img/footer/mess.png) no-repeat center center;
+}
+.qq:hover{
+  background:#005BAC url(../img/footer/qq.png) no-repeat center center;
+}
+.wx:hover{
+  background: #005BAC url(../img/footer/wx.png) no-repeat center center;
+}
+.email:hover{
+  background: #005BAC url(../img/footer/email.png) no-repeat center center;
+}
+.address:hover{
+  background: #005BAC url(../img/footer/address.png) no-repeat center center;
+}
+.mess:hover{
+  background: #005BAC url(../img/footer/mess.png) no-repeat center center;
+}

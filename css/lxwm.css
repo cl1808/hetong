@@ -1,0 +1,26 @@
+.banner {
+  width: 100%;
+  height:400px;
+}
+.banner .img6{
+  height:100%;
+  background:url(../img/tel/xaYmhcn6SyG-Kp7VYGP63w.jpg) center center no-repeat;
+}
+.opt div{
+  width:10.1rem;
+  height:2.2rem;
+  background: #005BAC;
+  margin-right: 0.3rem;
+  margin-top:-4rem;
+  cursor: pointer;
+}
+.opt div a{
+  display: block;
+  line-height: 2.2rem;
+  text-align: center;
+  color:#FFFFFA;
+  font-size:0.9rem;
+}
+.opt div:hover{
+  background:#9bc816 ;
+}

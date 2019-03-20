@@ -1,0 +1,67 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.circle{
+  padding-left: 48rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.content>div{
+  margin-top: 3.45rem;
+}
+.content div a{
+  color:#323232;
+  font-size:0.9rem ;
+}
+.content div a:hover{
+  color: #67B5B2;
+}
+.content div p{
+  color:#969696;
+  font-size: 0.8rem;
+}
+.content p{
+  color:rgba(102,102,102,1);
+  font-size: 0.9rem;
+  line-height: 2rem;
+  margin-top: -0.9rem;
+  margin-bottom: 1.5rem;
+}
+.page-link {
+  color: #666666 !important;
+  background-color: #F2F2F2 !important;
+  border: 0 !important;
+  font-size: 0.9rem;
+}
+.page-item:first-child .page-link {
+  padding-left:1.2rem !important;
+  padding-right:1.2rem !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.page-item:last-child .page-link {
+  padding-left:1.2rem !important;
+  padding-right:1.2rem !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.page-item.active .page-link{
+  background: #5AAAA7 !important;
+  color:#fff !important;
+}
+.page-link:hover{
+  background: #5AAAA7 !important;
+  color:#fff !important;
+}
+.page-link:focus {
+  box-shadow: 0 0 0 0 #fff !important;
+}
+
+

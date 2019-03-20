@@ -1,0 +1,27 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.circle{
+  padding-left: 48rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.honor img{
+  padding:0.3rem;
+  margin-bottom: 0.2rem;
+  border:1px solid #DDDDDD;
+  cursor: pointer;
+}
+.honor img:not(:last-child){
+  height:15.4rem;
+}
+.honor img:hover{
+  border:1px solid #CC411A;
+}

@@ -1,0 +1,51 @@
+.breadcrumb{
+  background-color: #fff !important;
+  font-size:0.8rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  content: "|" !important;
+}
+.circle{
+  padding-left: 55rem;
+  font-size: 1.5rem;
+  color:#005BAC;
+  margin-top:-0.9rem;
+}
+.content{
+  margin-left: 6rem;
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
+}
+.content div div:first-child{
+  margin-left: -2.5rem;
+}
+.content div div:first-child span{
+  color:#f00;
+}
+.content div{
+  margin-bottom: 0.7rem;
+  color:#666;
+  font-size: 0.9rem;
+}
+.text{
+  height:9.3rem;
+}
+.form,.text{
+  width:56rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  margin-left: 0.3rem;
+  padding: 0.2rem 0.7rem;
+}
+.content div:last-child input{
+  background: #005BAC;
+  border: 0;
+  color:#fff;
+  padding:0.3rem 1.9rem;
+}
+
+
+
+

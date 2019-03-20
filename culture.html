@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/culture.css"/>
+  <link rel="stylesheet" href="css/base.css"/>
+</head>
+<body>
+<!--引入顶部-->
+<div id="header"></div>
+<div id="zjht"></div>
+<script>
+  $(function(){
+    $("#header").load("header.html");
+  });
+  $(function(){
+    $("#zjht").load("zjht.html");
+  });
+</script>
+<!--面包屑导航-->
+<div class="w1 mt-4">
+  <ul class="breadcrumb mb-0">
+    <li class="breadcrumb-item">
+      <a href="javascript:;" style="color:#005BAC;">
+        <img src="img/culture/page.png" alt="" class="mb-1"/>
+        首页
+      </a>
+    </li>
+    <li class="breadcrumb-item">
+      <a href="javascript:;" style="color:#65BEBA;">走进和同</a>
+    </li>
+    <li class="breadcrumb-item" style="color:#005BAC;">企业文化</li>
+    <li class="circle">
+      <img src="img/culture/circle.png" alt=""/>
+      <span>走进和同</span>
+    </li>
+  </ul>
+  <hr class="mt-0"/>
+</div>
+<!--中间内容-->
+<div class="row w1">
+  <div class="col-lg-8 col-md-12 col-sm-12 font">
+    <div class="pt-5 pb-5">
+      <p>公司愿景</p>
+      <p>持续不断地提升全世界的能源管理水平</p>
+    </div>
+    <div class="pb-4">
+      <p style="color:#FF0000;">企业文化</p>
+    </div>
+    <div class="pb-4">
+      <p>和而不同</p>
+      <p>和睦同心、团队合作、包容差异、兼容并蓄、多样统一、对事不对人、原则与灵活、民主集中</p>
+    </div>
+    <div class="pb-4">
+      <p>以人为本</p>
+      <p>员工是基础、个人发展、全员参与、客户第一、有效人才、分享、尊重、沟通、培训、多赢、诚实守信</p>
+    </div>
+    <div class="pb-4">
+      <p>拥抱变化</p>
+      <p>持续改进、创新求变、主动调整、预防为主、关注过程、系统思考</p>
+    </div>
+    <div  class="pb-5">
+      <p>激情敬业</p>
+      <p>永不放弃、专业、高效、务实、精益求精、积极乐观、阳光心态、执行、速度</p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <img src="img/culture/WVpeh4lVTR2z7s6b1xzXYA.png" alt="" class="w-100 h-50 pt-5"/>
+  </div>
+</div>
+<!--引入底部-->
+<div id="footer"></div>
+<!-- 引入尾部-->
+<script>
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+</script>
+</body>
+</html>

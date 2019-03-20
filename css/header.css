@@ -1,0 +1,77 @@
+.header{
+  background: #005BAC;
+}
+.my_font a{
+  font-size:0.8rem;
+  color:#fff;
+}
+.a_color:hover{
+  color:#6AC427;
+}
+.row ul.my_font li{
+  padding-top:0.2rem;
+  padding-bottom: 0.5rem;
+}
+.row ul.my_font{
+  margin-bottom: 0;
+}
+.font_size{
+  font-size: 0.9rem;
+  padding:0.1rem;
+}
+.my_line{
+  width:2.4rem;
+  height:1.54rem;
+  background: #fff;
+  border-left:1px solid #005BAC;
+}
+.search{
+  position: relative;
+  right:-0.7rem;
+}
+.ul_font>li>a{
+  font-size: 0.95rem;
+  color:#444444;
+}
+.ul_font>li>a:hover{
+  color:#005BAC;
+}
+.ul_color>span{
+  color:#005BAC;
+  font-size: 1.1rem;
+}
+.drop-down{
+  position: relative;
+}
+.drop-down-content{
+  position: absolute;
+  display: none;
+  left:-1rem;
+  padding-top:1.7rem;
+  z-index: 5;
+}
+.drop-down-content li a{
+  background: rgba(255,255,255,0.8);
+  border-top:1px solid #E1E2E3;
+  line-height:3.7rem;
+  padding:1.2rem;
+}
+.drop-down-content li {
+  width:10rem;
+}
+.drop-down .my_left{
+  left:-2.5rem;
+}
+.drop-down-content li a:hover{
+  color:#fff;
+  background-color: #005BAC;
+}
+.drop-down:hover .drop-down-content{
+  display: block;
+}
+/*phone*/
+@media screen and  (max-width:767px){
+  .ul_font li:not(:first-child):not(:last-child){
+    display: none;
+  }
+}
